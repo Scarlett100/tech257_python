@@ -83,8 +83,13 @@ git diff <old-commit-id> <new-commit-id>
 eg.
 git diff c0e9768c6ed1d1cc7e61e989c39bc3537cfea0a6 5e098b74e3f651f83511b018ab547f0afe637688
 
-## Git checkout
+## Git checkout - SAFE view previous versions of commits
 git checkout <any commit id>
+git checkout master/main -> will bring you to most recent commit even if you don't know the id
+
+## DANGEROUS - revert to a previous commit (lose changes made after it) - DANGEROUS
+git reset --hard <commit_id>
+
 
 
 
