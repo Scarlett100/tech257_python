@@ -71,7 +71,22 @@ Pull changes: server to local
 ```
 # git pull [REMOTE] [REMOTE_BRANCH]
 git pull origin main
+
+
 ```
+## Git log
+will give you a git history amd git id's
+
+## Git diff
+see the differences between two commits, can only show you two newest commits
+git diff <old-commit-id> <new-commit-id>
+eg.
+git diff c0e9768c6ed1d1cc7e61e989c39bc3537cfea0a6 5e098b74e3f651f83511b018ab547f0afe637688
+
+## Git checkout
+git checkout <any commit id>
+
+
 
 ## Good to know
-any file that starts with a dot eg .gitignore linux considers a hidden file
+any file that starts with a dot eg .gitignore linux considers a hidden file.
