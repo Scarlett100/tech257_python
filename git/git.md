@@ -87,20 +87,28 @@ git pull origin main
 If entire team is working on same branch and you would like the  updated version you have to pull.
 
 ## Git log
-will give you a git history amd git id's
+will give you a git history and git id's
 
 ## Git diff
-see the differences between two commits, can only show you two newest commits
+see the differences between two commits, can only show you two newest commits.
+```
 git diff <old-commit-id> <new-commit-id>
+```
 eg.
+```
 git diff c0e9768c6ed1d1cc7e61e989c39bc3537cfea0a6 5e098b74e3f651f83511b018ab547f0afe637688
+```
 
 ## Git checkout - SAFE view previous versions of commits
+```
 git checkout <any commit id>
 git checkout master/main -> will bring you to most recent commit even if you don't know the id
+```
 
 ## DANGEROUS - revert to a previous commit (lose changes made after it) - DANGEROUS
+```
 git reset --hard <commit_id>
+```
 
 
             _____Feature x------(complete replica of main branch)--------------|
@@ -142,8 +150,10 @@ don't always need to put branch if on correct branch
 ```
 
 ## How to remove files
+```
 git rm  --cached .idea
 git rm  --cached -r .idea
+```
 
 Remove from public
 delete .git folder to remove all commit history
