@@ -10,15 +10,15 @@
 ## centralised vs distributed VCS :
 
 ## Centralised Version Control System
-Centralised VCS (CVCS): Single central repository, developers commit directly to the central server (cloud).
-Centralised VCS (CVCS): Relies on constant network access for collaboration and version control with the central server (cloud).
-Centralised VCS (CVCS): Branching and merging often more centralised and heavyweight, managed on the central server (cloud).
+* Centralised VCS (CVCS): Single central repository, developers commit directly to the central server (cloud).
+* Centralised VCS (CVCS): Relies on constant network access for collaboration and version control with the central server (cloud).
+* Centralised VCS (CVCS): Branching and merging often more centralised and heavyweight, managed on the central server (cloud).
 
 ## Distributed VCS
 
-Distributed VCS (DVCS): Each developer has a local copy with full history (local), commits locally, and synchronizes with remote repositories (cloud).
-Distributed VCS (DVCS): Allows offline work with local repository copies (local), synchronization with remote repositories (cloud) when the network is available.
-Distributed VCS (DVCS): branching and merging,  developers can work independently and efficiently with local repositories (local)
+* Distributed VCS (DVCS): Each developer has a local copy with full history (local), commits locally, and synchronizes with remote repositories (cloud).
+* Distributed VCS (DVCS): Allows offline work with local repository copies (local), synchronization with remote repositories (cloud) when the network is available.
+* Distributed VCS (DVCS): branching and merging,  developers can work independently and efficiently with local repositories (local)
 
 ## 3 stages of git.
 stage → check →  commit
@@ -145,11 +145,11 @@ don't always need to put branch if on correct branch
 git rm  --cached .idea
 git rm  --cached -r .idea
 
-Remove Publically 
+Remove from public
 delete .git folder to remove all commit history
 remove hidden folder, commit history deleted if you need to do this delete .git
 
-never put credentials in a git repo....ever!!!
+Never put credentials in a git repo....ever!!!
 
 ## Good to know
 any file that starts with a dot eg .gitignore linux considers a hidden file.
