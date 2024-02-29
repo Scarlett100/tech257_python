@@ -6,10 +6,19 @@
 * working copy of file - local machine
 * distributed VCS (like git)
 * repository on server - usually online
-* 
-centralised vs distributed VCS :
 
+## centralised vs distributed VCS :
 
+## Centralised Version Control System
+Centralised VCS (CVCS): Single central repository, developers commit directly to the central server (cloud).
+Centralised VCS (CVCS): Relies on constant network access for collaboration and version control with the central server (cloud).
+Centralised VCS (CVCS): Branching and merging often more centralised and heavyweight, managed on the central server (cloud).
+
+## Distributed VCS
+
+Distributed VCS (DVCS): Each developer has a local copy with full history (local), commits locally, and synchronizes with remote repositories (cloud).
+Distributed VCS (DVCS): Allows offline work with local repository copies (local), synchronization with remote repositories (cloud) when the network is available.
+Distributed VCS (DVCS): branching and merging,  developers can work independently and efficiently with local repositories (local)
 
 ## 3 stages of git.
 stage → check →  commit
@@ -59,6 +68,9 @@ git commit -m "[COMMIT_MESSAGE]"
 
 If you don't want files tracked put them in the  .gitignore folder
 
+specify a list of things I don't want included
+
+
 ## Pushing 
 Pushing: local to server
 ```
@@ -71,9 +83,9 @@ Pull changes: server to local
 ```
 # git pull [REMOTE] [REMOTE_BRANCH]
 git pull origin main
-
-
 ```
+If entire team is working on same branch and you would like the  updated version you have to pull.
+
 ## Git log
 will give you a git history amd git id's
 
@@ -96,11 +108,11 @@ git reset --hard <commit_id>
 -main branch|------------------------------------------------------------------|
 
 ## GitHub
-GitHub is a cloud-based code hosting platform to help developers store, manage, track and control changes to their code. It is a platform used for collaboration and version control.
+GitHub is a cloud-based code hosting platform to help developers store, manage, track and control changes to their code. 
+It is a platform used for collaboration and version control.
 
 ## GitBash
-Git Bash is the command prompt used to interact between GitHub and a local copy of the code. It is a powerful and easy to use Bash CLI (Command Line Interface) in Windows or Mac, however, it is recommend to use the default terminal in Mac.
-
+Git Bash is the command prompt used between GitHub and a local copy code.
 Git Bash allows you to interact with the Windows environment using Linux commands and comes preloaded with Git for source control
 
 GitHub vs Git 
@@ -129,16 +141,19 @@ don't always need to put branch if on correct branch
  git remote set-url --push origin
 ```
 
+## How to remove files
+git rm  --cached .idea
+git rm  --cached -r .idea
+
+Remove Publically 
+delete .git folder to remove all commit history
+remove hidden folder, commit history deleted if you need to do this delete .git
+
+never put credentials in a git repo....ever!!!
+
 ## Good to know
 any file that starts with a dot eg .gitignore linux considers a hidden file.
 
-
-## Git ignore
-
-specify a list of things i dont want included
-
-git rm  --cached .idea
-git rm  --cached -r .idea
 
 
 
