@@ -5,7 +5,7 @@ original_word = "recommendation"
 scrambled_word = "eoommandretnic"
 # Create the hint slices...
 hint1_slice = original_word[4:6] # TO DO Create the word slice according to the clue below, use the format "original_word[x:y]"
-hint2_slice = original_word[-3:] #  TO DO Create the word slice according to the clue below, use the format "original_word[x:y]"
+hint2_slice = original_word[-3:] #  TO DO Create the word slice according to the clue below, use the format "original_word[x:y]" ****LEARN,REMEMBER!***
 hint3_slice = original_word[7:10] # TO DO Create the word slice according to the clue below, use the format "original_word[x:y]"
 hint4_slice = original_word[0:2] # TO DO Create the word slice according to the clue below, use the format "original_word[x:y]"
 

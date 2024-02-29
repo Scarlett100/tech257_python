@@ -70,20 +70,7 @@ total = starter_price + dinner_price + dessert_price
 print(f"Your total is {total}. The breakdown are starters at {starter_price}, mains at {dinner_price} & dessert at {dessert_price} ")
 
 
-# if time: level 4
-# Add more to this program. Recommended ways are: Only allow input that is within the list, Add quantities of order etc.
 
-#  if like not in starter_list: <---- if what you choose is not in the list of recommendations.
-
-if like not in starter_list:
-  print("not an option, please choose one of the available options")
-if dinner not in dinner_list:
-  print("not an option, please choose one of the available options")
-if afters not in dessert_list:
-  print("not an option, please choose one of the available options")
-
-#print(starter_list[:2])
-#dinner_list['large pizza']
 
 
 

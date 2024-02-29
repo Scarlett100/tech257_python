@@ -23,6 +23,7 @@ print(len(shopping_list))
 new_list = ["toffee", "coffee"]
 shopping_list = shopping_list + new_list
 print(shopping_list)
+# shopping_list.extend(new_list) < -- a way of doing it using the lists methods as asked ***LEARN!!****
 
 #  Remove "bananas" from 'shopping_list'. Print 'shopping_list' to check it's been removed.
 shopping_list.remove("bananas")
@@ -35,3 +36,6 @@ print(shopping_list)
 
 # EXTRA: if you just want the last removed list item to appear
 # print(shopping_list.pop(-1))
+
+#tip: an empty pop always removes last one
+

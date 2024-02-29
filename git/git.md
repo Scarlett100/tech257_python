@@ -91,6 +91,27 @@ git checkout master/main -> will bring you to most recent commit even if you don
 git reset --hard <commit_id>
 
 
+            _____Feature x------(complete replica of main branch)--------------|
+            |                                                a merge happens   |
+-main branch|------------------------------------------------------------------|
+
+## GitHub
+GitHub is a cloud-based code hosting platform to help developers store, manage, track and control changes to their code. It is a platform used for collaboration and version control.
+
+## GitBash
+Git Bash is the command prompt used to interact between GitHub and a local copy of the code. It is a powerful and easy to use Bash CLI (Command Line Interface) in Windows or Mac, however, it is recommend to use the default terminal in Mac.
+
+Git Bash allows you to interact with the Windows environment using Linux commands and comes preloaded with Git for source control
+
+
+
+GitHub vs Git 
+once cloned remote and local repo are synched.
+
+if all working on same branch and want updated version you have to pull.
+
+
+
 
 
 ## Good to know
