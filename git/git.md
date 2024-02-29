@@ -116,3 +116,22 @@ if all working on same branch and want updated version you have to pull.
 
 ## Good to know
 any file that starts with a dot eg .gitignore linux considers a hidden file.
+
+
+Git
+
+
+Staging is the step that you must take before commiting a change.
+
+# Staging
+stage all files (only if you are at the root of your project)
+git add . 
+or git add <fileName>
+
+# check the status
+know whats going on!
+git status
+
+# commiting your changes
+saving the changes that you have staged to the repository.
+git commit -m "[COMMIT_MESSAGE]"

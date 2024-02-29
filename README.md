@@ -32,23 +32,7 @@ Numbered lists
 
 
 
-Git
 
-
-Staging is the step that you must take before commiting a change.
-
-# Staging
-stage all files (only if you are at the root of your project)
-git add . 
-or git add <fileName>
-
-# check the status
-know whats going on!
-git status
-
-# commiting your changes
-saving the changes that you have staged to the repository.
-git commit -m "[COMMIT_MESSAGE]"
 
 
 
