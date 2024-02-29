@@ -110,10 +110,12 @@ git checkout master/main -> will bring you to most recent commit even if you don
 git reset --hard <commit_id>
 ```
 
+```
 
             _____Feature x------(complete replica of main branch)--------------|
             |                                                a merge happens   |
 -main branch|------------------------------------------------------------------|
+```
 
 ## GitHub
 GitHub is a cloud-based code hosting platform to help developers store, manage, track and control changes to their code. 
