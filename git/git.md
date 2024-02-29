@@ -103,35 +103,39 @@ Git Bash is the command prompt used to interact between GitHub and a local copy 
 
 Git Bash allows you to interact with the Windows environment using Linux commands and comes preloaded with Git for source control
 
-
-
 GitHub vs Git 
 once cloned remote and local repo are synched.
 
 if all working on same branch and want updated version you have to pull.
 
+## Check your branch
+```
+#  git branch
+```
 
+## How to push
+```
+git branch -M master
+git remote add origin https://github.com/Scarlett100/hellofeb.git
+git push -u origin master
+```
 
-
+## To switch to https from ssh
+```
+ git remote -v
+ git remote set-url origin 
+ git remote set-url --push origin
+```
 
 ## Good to know
 any file that starts with a dot eg .gitignore linux considers a hidden file.
 
 
-Git
+## Git ignore
+
+specify a list of things i dont want included
 
 
-Staging is the step that you must take before commiting a change.
 
-# Staging
-stage all files (only if you are at the root of your project)
-git add . 
-or git add <fileName>
 
-# check the status
-know whats going on!
-git status
 
-# commiting your changes
-saving the changes that you have staged to the repository.
-git commit -m "[COMMIT_MESSAGE]"
