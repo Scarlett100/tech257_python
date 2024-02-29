@@ -118,6 +118,8 @@ if all working on same branch and want updated version you have to pull.
 git branch -M master
 git remote add origin https://github.com/Scarlett100/hellofeb.git
 git push -u origin master
+
+don't always need to put branch if on correct branch
 ```
 
 ## To switch to https from ssh
@@ -134,6 +136,12 @@ any file that starts with a dot eg .gitignore linux considers a hidden file.
 ## Git ignore
 
 specify a list of things i dont want included
+
+git rm  --cached .idea
+git rm  --cached -r .idea
+
+
+
 
 
 
