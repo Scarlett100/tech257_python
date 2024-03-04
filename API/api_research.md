@@ -2,6 +2,9 @@
 
 ## 1. What are APIs? How are they used and why are they so popular?
 
+
+![API.drawio.png](..%2F..%2F..%2F..%2F..%2FDownloads%2FAPI.drawio.png)
+
 Application Programming Interfaces also known as API'S can be defined as:
 
 * Rules that allow different softwares to communicate.
