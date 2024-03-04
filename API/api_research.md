@@ -25,7 +25,10 @@ A RESTful API is like a bridge that allows two computers to talk to each other s
 
 ## 3. What is HTTP? (what does it stand for and what is it used for? What is HTTPS?)
 
-
+ * HTTP: The Hypertext Transfer Protocol 
+ * Essentially request and response
+ * If you enter a request with info (eg. a url) it should respond with the page
+ * Transports! takes info between server and client. eg
 
 ## 6. What are the 5 HTTP verbs and what do they do?
 
