@@ -21,7 +21,7 @@ Application Programming Interfaces also known as API'S can be defined as:
  Representational State Transfer can be shortened to rest.
 
 A RESTful API can be seen as a bridge. It allows two computers to talk to each other via the internet. RESTful API's provide a structured way for data and commands to be shared, securely.
-
+As REST API's are stateless, this , makes them to be considered as restful as it has all the information needed to process a request.
 
 ## 3. What is HTTP? (what does it stand for and what is it used for? What is HTTPS?)
 
