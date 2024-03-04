@@ -30,7 +30,10 @@ As REST API's are stateless, this , makes them to be considered as restful as it
  * If you enter a request with info (eg. a url) it should respond with the page
  * Transports! takes info between server and client. 
 
-## 3.Explain HTTP request structure using the diagrams provided, or your own.
+## 4.Explain HTTP request structure using the diagrams provided, or your own.
+
+
+## 5. Explain HTTP response structure using the diagram provided, or your own.
 
 
 
@@ -61,3 +64,15 @@ Essentially: a stateful API has a record of previous requests information unlike
 
 Cache is essentially a non permanent storage layer. It essentially allows requests to be retrieved quicker because the request has been stored before, within the cache.
 It is normally stored within the RAM. You may sometimes find that need to clear your cache to get things to work.
+
+## References
+
+  https://www.geeksforgeeks.org/restful-statelessness/ <br>
+  https://intuji.com/stateful-vs-stateless-api-difference/ <br>
+  https://aws.amazon.com/caching/ <br>
+  https://aws.amazon.com/what-is/api/
+
+## Licenses
+GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc. https://fsf.org/ Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
