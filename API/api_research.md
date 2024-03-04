@@ -1,10 +1,9 @@
 # Understanding APIs and HTTP
 
-## 1. What are APIs? How are they used and why are they so popular?
+## 1. What are APIs? How are they used, and why are they so popular?
 
-![Image Alt text](/Users/AAA/Documents/sparta/github/tech257_python/images/API.drawio.png
 
-![Image Alt text](/Users/AAA/Documents/sparta/github/tech257_python/images/API.drawio.png "API"))
+![Image Alt text](/Users/AAA/Documents/sparta/github/tech257_python/images/API.drawio.png "API")
 
 
 Application Programming Interfaces also known as API'S can be defined as:
