@@ -20,7 +20,7 @@ Application Programming Interfaces also known as API'S can be defined as:
 
  Representational State Transfer can be shortened to rest.
 
-A RESTful API is like a bridge that allows two computers to talk to each other safely on the internet, providing a structured way for them to share data and commands, communication  secure.
+A RESTful API can be seen as a bridge. It allows two computers to talk to each other via the internet. RESTful API's provide a structured way for data and commands to be shared, securely.
 
 
 ## 3. What is HTTP? (what does it stand for and what is it used for? What is HTTPS?)
@@ -28,7 +28,11 @@ A RESTful API is like a bridge that allows two computers to talk to each other s
  * HTTP: The Hypertext Transfer Protocol 
  * Essentially request and response
  * If you enter a request with info (eg. a url) it should respond with the page
- * Transports! takes info between server and client. eg
+ * Transports! takes info between server and client. 
+
+## 3.Explain HTTP request structure using the diagrams provided, or your own.
+
+
 
 ## 6. What are the 5 HTTP verbs and what do they do?
 
