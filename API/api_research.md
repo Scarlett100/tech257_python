@@ -2,7 +2,6 @@
 
 ## 1. What are APIs? How are they used and why are they so popular?
 
-![diagram](https://drive.google.com/file/d/1lUSL3LquAyNt2YnCGWE8SA5bGCG3vl1I/view?usp=drive_link)
 ![Image Alt text](/Users/AAA/Documents/sparta/github/tech257_python/images/API.drawio.png
 
 ![Image Alt text](/Users/AAA/Documents/sparta/github/tech257_python/images/API.drawio.png "API"))
