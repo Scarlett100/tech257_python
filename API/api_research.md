@@ -54,9 +54,3 @@ Essentially: a stateful API has a record of previous requests information unlike
 
 Cache is essentially a non permanent storage layer. It essentially allows requests to be retrieved quicker because the request has been stored before, within the cache.
 It is normally stored within the RAM. You may sometimes find that need to clear your cache to get things to work.
-
-
-
-
-
-''
