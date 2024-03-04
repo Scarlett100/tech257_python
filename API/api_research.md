@@ -2,8 +2,8 @@
 
 ## 1. What are APIs? How are they used and why are they so popular?
 
+![image](https://drive.google.com/file/d/1lUSL3LquAyNt2YnCGWE8SA5bGCG3vl1I/view?usp=drive_link)
 
-![API.drawio.png](..%2F..%2F..%2F..%2F..%2FDownloads%2FAPI.drawio.png)
 
 Application Programming Interfaces also known as API'S can be defined as:
 
