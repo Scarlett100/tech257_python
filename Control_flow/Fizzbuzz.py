@@ -10,7 +10,7 @@ while num <= 100:
         print(num)
     num += 1
 
-    
+    # we could make the numbers variables to improve the script - instead of just 3 and 5 eg num1 and num2
 
 
 

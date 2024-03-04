@@ -53,7 +53,7 @@ for v in (dict_data) :
     #for y in x:
         #print(x[y])
 
-#6Loop to print the values of the dictionary items inside a dictionary: Copy and paste the last for loop as a starting point for this loop. Generate an embedded for loop (a loop within a loop) to extract and print the values within the dictionary of each item in the dictionary. Output should be:
+#6. Loop to print the values of the dictionary items inside a dictionary: Copy and paste the last for loop as a starting point for this loop. Generate an embedded for loop (a loop within a loop) to extract and print the values within the dictionary of each item in the dictionary. Output should be:
 #Bronson
 #$0.05
 #Masha
@@ -61,6 +61,7 @@ for v in (dict_data) :
 #Roscoe
 #$1.14
 
+# all ways work!
 #for v in dict_data:
     #for key, value in dict_data[v].items():
         #print(value)
@@ -73,19 +74,14 @@ for v in (dict_data) :
     # print(dict_data[key]["name"])
     # print(dict_data[key]["money"])
 
-
-    #
-
-
+    #for values in dict_data.values():
+        #for embedded_values in values.values():
+            #print(embedded_values)
 
     # The .items() method in Python is used to iterate over the key-value pairs of a dictionary.
     # When you call .items() on a dictionary, it returns a view object that displays a list of tuples.
     # shortcut to see everything in the dictionary without opening it up every time
     # Each tuple contains a key-value pair from the dictionary.
-
-
-
-
 
 for key, value in dict_data.items() :
         print(dict_data[key]["money"])

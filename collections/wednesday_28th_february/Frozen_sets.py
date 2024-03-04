@@ -5,7 +5,7 @@
 
 #The task
 #Create a frozen set named frozen_set containing elements "hello", "world".
-frozen_set  = frozenset(["hello", "world"])
+frozen_set  = frozenset(["hello", "world"])`
 print(frozen_set)
 #Try to add "!" to frozen_set. What happens?
 #cannot be modified they are frozen! immutable
